@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+table {
+    width: 70%;
+    margin:auto;
+}
+
+th {
+    background-color: brown;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(3) {
+    background-color: bisque;
+}
+
+tr:nth-child(odd) {
+    background-color: green;
+}
+
+tr:hover {
+    background-color: purple;
+    color: whitesmoke;
+}

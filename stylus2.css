@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    color: black;
+}
+
+table {
+    width: 70%;
+    margin:auto;
+}
+
+th {
+    background-color: lightblue;
+    padding: 15px;
+    color: black;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+.oldal{
+    border-right: 1px solid black;
+}
